@@ -44,7 +44,7 @@ add_action( 'profile_update', function() use ($mailto) {
 
 	    // message body
 	//    $message = "Hello " . $to_name . ",\n\n";
-	    $message = $to_name . "'s' profile has been updated.\n\n";
+	    $message = $to_name . "'s profile has been updated.\n\n";
 		$message .= "▼Author Page" . "\n";
 	    $message .= $profile_page . "\n\n";
 	    $message .= $site_title . "\n";
